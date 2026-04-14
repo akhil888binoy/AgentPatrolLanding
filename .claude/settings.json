@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx next:*)",
+      "Bash(curl -sS -o /dev/null -w \"status=%{http_code} size=%{size_download}\\\\n\" http://localhost:4321/)",
+      "Bash(kill %1)",
+      "Bash(wait)"
+    ]
+  }
+}
